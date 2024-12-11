@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    background-color: hsl(0, 0%, 11%);
+    margin: 0;
+    max-width: 330px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+main button{
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 15%);
+}
+button:active{
+    background-color: hsl(0, 0%, 25%);
+}
+#Display{
+    width: 99%;
+    margin-bottom: 20px;
+    height: 90px;
+    background-color: #474747;
+    border: none;
+    border-radius: 5px;
+    font-size: 45px;
+    color: white;
+    padding-left: 10px;
+}
+.simbolo{
+    background-color: #ff9100;
+}
+.simbolo:hover{
+    background-color: hsl(34, 100%, 60%);
+}
+.simbolo:active{
+    background-color: hsl(34, 100%, 70%);
+}
+body{
+    place-self: center;
+    background-color: black;
+}

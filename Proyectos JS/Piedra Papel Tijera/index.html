@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra Papel O tijera</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<main>
+    <div>
+        <button onclick="decision('Piedra')">✊</button>
+        <button onclick="decision('Papel')">✋</button>
+        <button onclick="decision('Tijera')">✌️</button>
+    </div>
+    <div>
+        <p>Jugador: <span id="outputJugador">Sin tirar</span></p>
+        <p>Maquina: <span id="outputMaquina">Sin tirar</span></p>
+    </div>
+    <h1>---------</h1>
+    <div>
+        <p>Jugador score: <span id="outputScoreJugador">0</span></p>
+        <p>Maquina score: <span id="outputScoreMaquina">0</span></p>
+    </div>
+</main>
+
+</body>
+<script src="javascript.js"></script>
+</html>

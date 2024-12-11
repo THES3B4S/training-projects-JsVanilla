@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="texto1"></div>
+
+<label for="input">input para javascript</label><input type="text" id="input" name="input">
+<button id="Enviarinput">Enviar input</button>
+
+<div id="contador"></div>
+<button id="restar">restar</button>
+<button id="incrementar">incrementar</button>
+<input type="checkbox" id="Echeckbox"><label for="Echeckbox"></label>
+<input type="radio" name="payments" id="visa"><label for="visa">visa</label>
+<input type="radio" name="payments" id="mastercard"><label for="mastercard">mastercard</label>
+<input type="radio" name="payments" id="paypal"><label for="paypal">paypal</label>
+<button id="enviarcheck">Enviar Check</button>
+
+<button onclick="Iniciar()">Iniciar</button>
+<button onclick="Parar()">Parar</button>
+
+<h1 id="h1Elemento">Bienvenido</h1>
+<p class="frutas">Manzana</p>
+<p class="frutas">Pera</p>
+<p class="frutas">Banano</p>
+
+<ul id="frutasLista">
+    <li id="fresa">fresa</li>
+    <li id="kiwi">kiwi</li>
+    <li id="mango">mango</li>
+</ul>
+<ul id="verdurasLista">
+    <li id="lechuga">lechuga</li>
+    <li id="patata">patata</li>
+    <li id="brocoli">brocoli</li>
+</ul>
+
+<section id="cajas">
+    <div id="box1" class="box">
+        <p>Box1</p>
+    </div>
+    <div id="box2" class="box">
+        <p>Box2</p>
+    </div>
+    <div id="box3" class="box">
+        <p>Box3</p>
+    </div>
+</section>
+
+<div id="clickCaja">Clickeame 😊</div>
+<div id="cajaMovible">👮🏿</div>
+
+<img src="Proyectos%20JS/Imagenes/bestclub.jpg" width="200px" id="imageMyO">
+<br>
+<button id="botonMyO">Ocultar</button>
+<button id="botonMyOV">Invisible</button>
+
+<div id="BotonesN">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+</div>
+
+<div id="BotonesC">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+</div>
+
+<section id="buscadorPokemon">
+    <input type="text" placeholder="busca tu pokemon" id="inputBusquedaP">
+    <button onclick="enviarFetch()">Buscar</button><br>
+</section>
+<script type="module" src="javascript.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<style>
+    .box {
+        border: 3px solid black;
+        height: 100px;
+    }
+
+    #clickCaja {
+        width: 120px;
+        height: 120px;
+        background-color: greenyellow;
+        font-size: 1.4rem;
+        align-content: center;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #cajaMovible {
+        text-align: center;
+        align-content: center;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        font-size: 4.5rem;
+        position: relative;
+    }
+
+    #BotonesC button {
+        width: 80px;
+        height: 80px;
+    }
+
+    .hover {
+        background-color: black;
+        color: white;
+        transition: background-color, color, ease 1s;
+    }
+
+    .habilitado {
+        background-color: greenyellow;
+    }
+
+    .inhabilitado {
+        background-color: red;
+    }
+</style>

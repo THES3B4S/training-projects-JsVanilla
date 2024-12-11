@@ -1,0 +1,41 @@
+html{
+    background-color: #000;
+    color: #32aa28;
+    font-family: "Roboto Thin", sans-serif;
+}
+#contenedor{
+    background-color: #000000;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    border: 3px solid #32aa28;
+    border-radius: 7px;
+    font-size: 25px;
+    margin: 50px auto;
+}
+#Contador{
+    border-top: 2px #32aa28 solid;
+    border-left: 2px #32aa28 solid;
+    border-right: 2px #32aa28 solid;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+}
+section{
+    border-bottom: 2px #32aa28 solid;
+    width: 200px;
+    place-self: center;
+    border-left: 2px #32aa28 solid;
+    border-right: 2px #32aa28 solid;
+    border-top: 2px #32aa28 solid;
+    border-radius: 5px;
+    padding-bottom: 8px;
+}
+section button{
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: #32aa28;
+    padding: 1px;
+}

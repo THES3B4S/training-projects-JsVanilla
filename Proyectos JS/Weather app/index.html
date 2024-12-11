@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<main>
+    <form class="climaFormulario">
+        <input type="text" class="inputCiudad" placeholder="Ingrese una ciudad" pattern="[a-z,A-Z]+">
+        <button type="submit">Clima</button>
+    </form>
+
+    <section class="infoFrame">
+        <figure class="emojiClima"></figure>
+        <div>
+            <h1 class="ciudadDisplay"></h1>
+            <p>Temperatura: <span class="tempDisplay"></span>°</p>
+            <p>Humedad: <span class="humedadDisplay"></span>%</p>
+            <p class="climaStatus"></p>
+        </div>
+    </section>
+</main>
+
+</body>
+
+
+<script src="javascript.js"></script>
+</html>

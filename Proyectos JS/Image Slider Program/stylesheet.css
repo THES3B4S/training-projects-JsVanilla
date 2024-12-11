@@ -1,0 +1,56 @@
+#SliderC img{
+    max-width: 100%;
+    display: none;
+}
+#SliderC{
+    position: relative;
+    max-width: 20%;
+}
+#SliderC img.aparecer{
+    animation: aparecer 1s;
+}
+#SliderC button{
+    position: absolute;
+    top: 50%;
+    padding: 10px 5px;
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.4rem;
+}
+#SliderC button:hover{
+    background-color: hsl(0, 0%, 35%);
+}
+#SliderC button:first-of-type{
+    left: 5px;
+}
+#SliderC button:last-of-type{
+    right: 5px;
+}
+
+
+
+
+
+
+body{
+    background: black;
+    place-items: center;
+    margin: 100px 0;
+}
+
+
+
+
+
+
+@keyframes aparecer {
+    from{
+        opacity: 0.8;
+    }
+    to{
+        opacity: 1;
+    }
+}

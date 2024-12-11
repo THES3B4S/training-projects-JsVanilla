@@ -1,0 +1,38 @@
+label {
+    font-weight: bold;
+    display: block;
+    margin: 25px auto 10px;
+}
+#numeroD {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+}
+#lanzarD{
+    cursor: pointer;
+}
+body{
+    padding: 0.1px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 35px auto;
+    border-radius: 15px;
+    background-color: #3d7e29;
+}
+#outputImagenes{
+    background-color: #28551b;
+    width: 80%;
+    margin: auto;
+    border-radius: 3px;
+    padding: 5px;
+}
+#outputTexto{
+    padding: 0 50px;
+}
+html{
+    background: black;
+}

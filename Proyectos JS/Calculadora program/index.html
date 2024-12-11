@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<main>
+<div id="CalculadoraContainer">
+  <input id="Display" readonly>
+    <div class="botones">
+        <button class="simbolo" onclick="agregarADisplay('+')">+</button>
+        <button onclick="agregarADisplay('7')">7</button>
+        <button onclick="agregarADisplay('8')">8</button>
+        <button onclick="agregarADisplay('9')">9</button>
+        <button class="simbolo" onclick="agregarADisplay('-')">-</button>
+        <button onclick="agregarADisplay('4')">4</button>
+        <button onclick="agregarADisplay('5')">5</button>
+        <button onclick="agregarADisplay('6')">6</button>
+        <button class="simbolo" onclick="agregarADisplay('*')">*</button>
+        <button onclick="agregarADisplay('1')">1</button>
+        <button onclick="agregarADisplay('2')">2</button>
+        <button onclick="agregarADisplay('3')">3</button>
+        <button class="simbolo" onclick="agregarADisplay('/')">/</button>
+        <button onclick="agregarADisplay('0')">0</button>
+        <button class="simbolo" onclick="agregarADisplay('.')">.</button>
+        <button class="simbolo" onclick="calcular()">=</button>
+        <button class="simbolo" onclick="borrarDisplay()">C</button>
+    </div>
+</div>
+</main>
+
+</body>
+</html>
+<script src="javascript.js"></script>

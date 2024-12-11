@@ -1,0 +1,50 @@
+main{
+    background-color: hsl(0, 0%, 5%);
+    color: white;
+    width: 40%;
+    max-width: 500px;
+    border-radius: 10px;
+    place-items: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    font-size: 1.5rem;
+    font-family: "Roboto Thin", sans-serif;
+}
+body{
+    background-color: black;
+    place-items: center;
+}
+.infoFrame{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 60px;
+    margin-top: 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.infoFrame div{
+    margin-top: 20px;
+}
+.climaFormulario input, button{
+    background-color: hsl(0, 0%, 0%);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+.climaFormulario button{
+    background-color: hsl(0, 0%, 20%);
+}
+.climaFormulario button:hover{
+    background-color: hsl(0, 0%, 10%);
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.climaFormulario{
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 5px;
+}
+.emojiClima{
+    font-size: 5rem;
+    text-align: right;
+}
